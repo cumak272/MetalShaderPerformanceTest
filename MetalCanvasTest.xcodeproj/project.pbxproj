@@ -10,9 +10,22 @@
 		13A276632F431A2900EE1EE5 /* MetalCanvasTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalCanvasTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		13A277732F4320E800EE1EE5 /* Exceptions for "MetalCanvasTest" folder in "MetalCanvasTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 13A276622F431A2900EE1EE5 /* MetalCanvasTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		13A276652F431A2900EE1EE5 /* MetalCanvasTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				13A277732F4320E800EE1EE5 /* Exceptions for "MetalCanvasTest" folder in "MetalCanvasTest" target */,
+			);
 			path = MetalCanvasTest;
 			sourceTree = "<group>";
 		};
@@ -256,7 +269,7 @@
 				DEVELOPMENT_TEAM = 6BJQZ9UU5E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MetalCanvasTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -288,7 +301,7 @@
 				DEVELOPMENT_TEAM = 6BJQZ9UU5E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MetalCanvasTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
